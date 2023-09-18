@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>Этап L1 (№ 28)</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+<!--В этом примере создается новый элемент <div>, содержащий текст "Это новый элемент в блоке div, созданный из шаблона тега template", и этот элемент добавляется
+    внутрь <div> с id myContainer.
+    Если браузер поддерживает тег <template>, то содержимое шаблона будет клонировано и добавлено в контейнер.
+    В противном случае, если тег <template> не поддерживается, мы просто получаем содержимое шаблона в виде строки HTML и добавляем его в контейнер.-->
+<template id="myTemplate">
+    <div>Это новый элемент в блоке div, созданный из шаблона тега template</div>
+</template>
+
+<div id="myContainer"></div>
+</body>
+</html>

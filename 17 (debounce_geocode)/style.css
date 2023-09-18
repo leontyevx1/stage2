@@ -1,0 +1,16 @@
+#addressInput {
+    width: 500px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-item {
+    cursor: pointer;
+    padding: 3px;
+}
+
+.dropdown-item:hover {
+    background-color: #f2f2f2;
+}
